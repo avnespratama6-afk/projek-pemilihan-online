@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f6ff;
+  color: #333;
+}
+
+/* LAYOUT */
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  background: #5d66e4;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.sidebar h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex: 1;
+  padding: 35px 40px;
+}
+
+.main-content h1 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* FORM */
+label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form-control {
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* BUTTON */
+.btn {
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 8px 22px;
+}
+
+.btn-success {
+  background: #5d66e4;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #4b54d8;
+}
+
+.btn-primary {
+  background: #6c7cff;
+  border: none;
+}
+
+.btn-danger {
+  background: #ff5c5c;
+  border: none;
+}
+
+/* TABLE */
+.table {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.table th {
+  background: #eef0ff;
+  font-weight: 600;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.table img {
+  border-radius: 10px;
+  border: 2px solid #e0e0ff;
+}
+
+/* DATATABLE */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  border-radius: 50px !important;
+  padding: 5px 14px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: #5d66e4 !important;
+  color: #fff !important;
+}
+
+/* RESULT INFO */
+.fw-bold {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .admin-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sidebar a {
+    margin: 5px;
+  }
+
+  .main-content {
+    padding: 25px;
+  }
+}

@@ -1,0 +1,170 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f6fb;
+  color: #222;
+}
+
+/* NAVBAR */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #b8bdf8;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  color: #2f2f7a;
+}
+
+.logout-btn {
+  text-decoration: none;
+  background-color: #5b64e6;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #5b64e6;
+  color: white;
+  padding: 80px 40px;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.button-cta {
+  display: inline-block;
+  background-color: #f5b44b;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  padding: 40px;
+}
+
+/* PANDUAN SECTION */
+.panduan-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* LIST LANGKAH */
+.langkah-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.langkah-item {
+  background-color: #eef0ff;
+  border-left: 6px solid #5b64e6;
+  padding: 20px 24px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.langkah-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3fcf;
+  margin-bottom: 6px;
+}
+
+.langkah-item p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* NOMOR */
+.nomor {
+  position: absolute;
+  left: -6px;
+  top: 18px;
+  background-color: #5b64e6;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+/* INFO TAMBAHAN */
+.info-tambahan {
+  background-color: #ffe3e3;
+  padding: 25px 30px;
+  margin-top: 40px;
+  border-radius: 6px;
+}
+
+.info-tambahan h2 {
+  color: #d10000;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.info-tambahan ul {
+  list-style: none;
+}
+
+.info-tambahan li {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: left;
+  padding: 18px;
+  font-size: 13px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 25px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .container {
+    padding: 25px;
+  }
+}

@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HEADER */
+.navbar-custom {
+  background-color: #5f67e6;
+  padding: 25px 50px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.nav-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.nav-menu a.active {
+  text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+  min-height: calc(100vh - 140px);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-container {
+  position: relative;
+  padding: 100px 60px;
+}
+
+.hero-text {
+  max-width: 600px;
+  z-index: 2;
+  position: relative;
+}
+
+.welcome-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* BUTTON */
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-daftar {
+  background-color: #5f67e6;
+  color: #fff;
+  padding: 14px 40px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn-daftar:hover {
+  background-color: #4f57d6;
+  color: #fff;
+}
+
+.btn-masuk {
+  border: 2px solid #5f67e6;
+  color: #5f67e6;
+  padding: 14px 40px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.btn-masuk:hover {
+  background-color: #5f67e6;
+  color: #fff;
+}
+
+/* ORNAMEN LINGKARAN */
+.hero-shape {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #e6e9ff;
+  z-index: 1;
+}
+
+.big-circle {
+  width: 420px;
+  height: 420px;
+  left: -120px;
+  top: 120px;
+}
+
+.small-circle {
+  width: 250px;
+  height: 250px;
+  left: 380px;
+  top: 300px;
+}
+
+/* FOOTER */
+.footer-custom {
+  background-color: #5f67e6;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}

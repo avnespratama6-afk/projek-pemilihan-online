@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+}
+
+.header-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.content {
+  text-align: center;
+  padding: 20px 40px 60px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.candidate-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.candidate-card {
+  width: 300px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: left;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.candidate-card.active {
+  opacity: 1;
+}
+
+.candidate-header {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.candidate-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.candidate-body {
+  padding: 20px;
+  color: #333;
+  min-height: 200px;
+}
+
+.candidate-body h3 {
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+
+.candidate-body .vismis-title {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.candidate-body ul {
+  list-style: disc;
+  margin: 5px 0 0 20px;
+  padding: 0;
+  font-size: 14px;
+}
+
+.vote-area {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.vote-btn {
+  width: 80%;
+  padding: 10px;
+  background-color: #5f6cf0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.vote-btn:hover:not(:disabled) {
+  background-color: #4b57d6;
+}
+
+.vote-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

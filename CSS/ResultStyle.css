@@ -1,0 +1,145 @@
+body {
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.page-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+/* SUMMARY */
+.summary-row {
+    margin-bottom: 30px;
+}
+
+.summary-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.summary-card.highlight .summary-value {
+    color: #2ecc71;
+}
+
+.summary-value {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.summary-label {
+    color: #777;
+    margin-top: 5px;
+}
+
+/* CARD */
+.card-box {
+    background: #f2f2f2;
+    border-radius: 14px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+/* CANDIDATE */
+.candidate-item {
+    margin-bottom: 22px;
+}
+
+.candidate-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.candidate-name {
+    font-weight: 600;
+    color: #1f4fd8;
+}
+
+.candidate-id {
+    font-size: 13px;
+    color: #777;
+}
+
+.candidate-value {
+    font-weight: 600;
+}
+
+/* PROGRESS */
+.progress-custom {
+    background: #e0e0e0;
+    height: 14px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 20px;
+}
+
+.progress-fill.blue {
+    background: #5b64e6;
+}
+
+.progress-fill.cyan {
+    background: #4db6e5;
+}
+
+.progress-fill.orange {
+    background: #f0b15b;
+}
+
+/* TABLE */
+.section-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.search-input {
+    border-radius: 10px;
+    padding: 10px;
+    background: #e0e0e0;
+    border: none;
+}
+
+.custom-table th {
+    font-weight: 600;
+    border-bottom: 2px solid #ccc;
+}
+
+.custom-table td {
+    border-top: none;
+}
+
+/* REKAP */
+.rekap-box {
+    background: #d9d9d9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* BUTTON */
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* CHART */
+.chart-box {
+    background: #f2f2f2;
+}

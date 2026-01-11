@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* NAVBAR */
+.top-nav {
+  background-color: #a9aff4;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logout-btn {
+  background: #5865f2;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  opacity: 0.9;
+}
+
+/* HERO */
+.about-hero {
+  background-color: #5d66e4;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about-hero p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+/* CARD UMUM */
+.section-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  margin-bottom: 40px;
+}
+
+.section-card h2 {
+  text-align: center;
+  color: #5d66e4;
+  font-size: 26px;
+  margin-bottom: 35px;
+}
+
+/* VISI & MISI */
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.vision-card,
+.mission-card {
+  background: #f2f4ff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.vision-card {
+  border-left: 5px solid #5d66e4;
+}
+
+.mission-card {
+  border-left: 5px solid #3cb371;
+}
+
+.vision-card h3,
+.mission-card h3 {
+  margin-bottom: 10px;
+  color: #5d66e4;
+}
+
+.mission-card ul {
+  padding-left: 20px;
+}
+
+/* GARIS PEMISAH */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+  margin: 50px 0;
+}
+
+/* NILAI INTI */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.value-item {
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+}
+
+.value-item h4 {
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+/* TEAM */
+.team-section {
+  text-align: center;
+}
+
+.team-profile-5 {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.team-member {
+  width: 180px;
+  text-align: center;
+}
+
+.team-photo {
+  width: 120px;            
+  height: 120px;
+  border-radius: 50%;       
+  object-fit: cover;
+  border: 3px solid #5d66e4; 
+  margin-bottom: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.18);
+}
+
+/* NAMA & ROLE */
+.team-member h4 {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.team-role {
+  font-size: 12px;
+  color: #777;
+  font-style: italic;
+}
+
+/* CATATAN TIM */
+.disclaimer {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #030303;
+}
+
+/* FOOTER */
+footer {
+  text-align: left;
+  padding: 20px;
+  font-size: 13px;
+  color: #050404;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .team-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .team-member {
+    width: 45%;
+  }
+}
