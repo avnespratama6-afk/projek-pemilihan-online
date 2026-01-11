@@ -86,6 +86,7 @@ Web_Pemilihan_Online/
 │   ├── CSS/               # File CSS
 │   ├── images/            # Gambar website
 │   ├── foto_kandidat/     # Foto kandidat
+│   ├── navbar/            # seluruh menu navbar
 │   ├── Landing.php        # Halaman utama
 │   ├── Login.php          # Halaman login
 │   ├── Register.php       # Halaman registrasi
