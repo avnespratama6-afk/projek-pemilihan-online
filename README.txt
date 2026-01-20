@@ -80,8 +80,7 @@ Session & Auth	  PHP Session
 Keamanan      Validasi Session & Kode Unik
 
 Struktur Folder (Ringkasan)
-Web_Pemilihan_Online/
-├── Pemilihan_Online/
+├── Web_Pemilihan_Online/
 ├── HTML/
 │   ├── CSS/               # File CSS
 │   ├── images/            # Gambar website
